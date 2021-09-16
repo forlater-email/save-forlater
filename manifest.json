@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "save forlater",
+  "version": "1.0",
+
+  "description": "Generates a mailto link to save pages via forlater.email",
+
+  "icons": {
+    "48": "icons/logo-48.png"
+  },
+  "permissions": [ "activeTab", "contextMenus" ],
+  "browser_action": {
+    "default_icon": "icons/logo-48.png",
+    "default_title": "save forlater"
+  },
+  "background": {
+    "scripts": ["forlater.js"]
+  }
+}
