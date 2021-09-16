@@ -3,3 +3,14 @@ save-forlater
 
 Firefox and Chrome extensions to save a page via forlater. Check the
 releases page.
+
+NOTE: Chrome extensions can't be trivially installed without it being
+published on the Chrome Web Store -- something that I don't plan on
+doing. You can manually install it like so:
+
+• Head to chrome://extensions
+• Enable 'Developer mode' (top right)
+• Unzip the downloaded .crx file
+• Click on 'Load unpacked' and point it to the unzipped directory
+
+Or just use Firefox.
