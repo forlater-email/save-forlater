@@ -1,0 +1,17 @@
+{
+  "name": "save forlater",
+  "description": "Save a page via forlater",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "forlater.js"
+  },
+  "permissions": ["activeTab", "contextMenus", "background"],
+  "action": {
+    "default_icon": "icons/logo-48.png",
+    "default_title": "save forlater"
+  },
+  "icons": {
+    "48": "icons/logo-48.png"
+  }
+}
